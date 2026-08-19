@@ -1,0 +1,30 @@
+@import "@fontsource/ibm-plex-sans-arabic/400.css";
+@import "@fontsource/ibm-plex-sans-arabic/500.css";
+@import "@fontsource/ibm-plex-sans-arabic/600.css";
+@import "@fontsource/ibm-plex-sans-arabic/700.css";
+@import "@fontsource/amiri/400.css";
+@import "@fontsource/amiri/700.css";
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans Arabic", sans-serif;
+  --font-serif: "Amiri", serif;
+  
+  --color-brand-bg: #15152A;
+  --color-brand-surface: #1C1C38;
+  --color-brand-surface-light: #232345;
+  --color-brand-accent: #2F9C82;
+  --color-brand-gold: #C8A951;
+}
+
+@layer utilities {
+  .font-amiri {
+    font-family: var(--font-serif);
+  }
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: white;
+}
+

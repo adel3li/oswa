@@ -1,0 +1,6 @@
+{
+  "name": "أُسوة",
+  "description": "رحلة يومية في هدي النبي ﷺ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
